@@ -5,7 +5,7 @@ import { addToCart } from "../features/ecommerceSlice";
 const Product = ({ product }) => {
   const dispatch = useDispatch();
   return (
-    <div className="block group p-5 w-[400px] border rounded-md shadow-indigo-100 shadow-md">
+    <div className="block group p-5 w-[300px] md:w-[400px] border rounded-md shadow-indigo-100 shadow-md">
       <img
         src={product.image}
         alt=""

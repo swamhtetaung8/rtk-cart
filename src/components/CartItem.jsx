@@ -19,8 +19,8 @@ const CartItem = ({ cartItem }) => {
         className="md:h-32 md:w-32 w-16 h-16 rounded object-contain"
       />
 
-      <div className="max-w-[200px] md:max-w-[800px]">
-        <h3 className="text-sm text-gray-900">{cartItem.title}</h3>
+      <div className="flex-1">
+        <h3 className="text-xs text-gray-900">{cartItem.title}</h3>
         <div className=" mt-5">
           <span className="inline-flex divide-x overflow-hidden rounded-md border bg-white shadow-sm">
             <button
